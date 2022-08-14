@@ -1,0 +1,73 @@
+.mini-logo {
+    width: 240px;
+}
+
+
+.jimbotron {
+    background-image: url(./assets/imgs/main_verde.png);
+    height: 800px; 
+    background-position: 10% center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    padding: 0 5em;
+}
+
+
+
+.logo {
+    width: 250px;
+    margin-top: 300px;
+    margin-bottom: 20px;
+    
+}
+
+.form {
+    /* width: 50%; */
+    background-color: #8d60b7;
+    padding: 10px;
+
+    border-radius: 5px;
+}
+
+.form-text-1 {
+    font-size: medium;
+
+}
+
+.form-text-2 {
+    font-size:x-small
+}
+
+.submit-btn {
+    font-size: x-small;
+    margin-top: 10px;
+}
+
+
+@media screen and (min-width:785px) {
+    .jimbotron{
+        background-position: 10% center;
+        height: 950px;
+    }
+
+}
+
+@media screen and (min-width:785px) {
+    .form{
+        width: 80%;
+        
+    }
+    .logo {
+        width: 400px;
+        margin-bottom: 40px;
+        margin-top: 220px;
+    }
+    .submit-btn {
+        font-size: small;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .form-text-2 {
+        font-size:small
+    }
+}
