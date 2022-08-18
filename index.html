@@ -22,8 +22,8 @@
 </head>
 
 <body>
-    <div class="container-fluid p-0">
-        <header class="header w-100">
+    <header class="container-fluid p-0">
+        <div class="header w-100">
 
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div class="container-fluid">
@@ -41,16 +41,19 @@
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page"
-                                    href="#">Subscríbete</a>
+                                    href="#subscribete">Subscríbete</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Catálogo</a>
+                                <a class="nav-link"
+                                    href="#catalogo">Catálogo</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Beneficios</a>
+                                <a class="nav-link"
+                                    href="#beneficios">Beneficios</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Redes Sociales</a>
+                                <a class="nav-link" href="#rrss">Redes
+                                    Sociales</a>
                             </li>
 
                         </ul>
@@ -58,47 +61,46 @@
                     </div>
                 </div>
             </nav>
-        </header>
-    </div>
+        </div>
+    </header>
     <main>
 
-        <section>
-            <div class="jimbotron d-flex align-items-end flex-column">
-                <div class="d-flex flex-column align-items-end">
-                    <img class="logo" src="./assets/imgs/logo_landing.png"
-                        alt="">
 
-                    <form class="form d-flex align-items-center flex-column">
-                        <div class="my-1 p-1 text-center">
-                            <label for="exampleInputEmail1"
-                                class="form-label text-white form-text-1">Suscríbete
-                                a
-                                nuestro
-                                Newsletter <br> y entérate de todas nuestras
-                                ofertas
-                            </label>
-                            <input type="email" class="form-control"
-                                id="exampleInputEmail1"
-                                aria-describedby="emailHelp">
-                            <div id="emailHelp"
-                                class="form-text-2 text-white mt-3">
-                                Recibirás un cupón de 15%OFF en tu correo
-                                para tu primera compra.</div>
-                        </div>
+        <section id="subscribete"
+            class="jimbotron d-flex align-items-end flex-column">
+            <div class="d-flex flex-column align-items-end">
+                <img class="logo" src="./assets/imgs/logo_landing.png" alt="">
 
-                        <button type="submit"
-                            class="btn btn-outline-light submit-btn">Submit</button>
-                    </form>
-                </div>
+                <form class="form d-flex align-items-center flex-column">
+                    <div class="my-1 p-1 text-center">
+                        <label for="exampleInputEmail1"
+                            class="form-label text-white form-text-1">Suscríbete
+                            a
+                            nuestro
+                            Newsletter <br> y entérate de todas nuestras
+                            ofertas
+                        </label>
+                        <input type="email" class="form-control"
+                            id="exampleInputEmail1"
+                            aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text-2 text-white mt-3">
+                            Recibirás un cupón de 15%OFF en tu correo
+                            para tu primera compra.</div>
+                    </div>
+
+                    <button type="submit"
+                        class="btn btn-outline-light submit-btn">Submit</button>
+                </form>
             </div>
         </section>
+
 
         <section>
             <img class="container-fluid p-0" src="./assets/imgs/separador-1.png"
                 alt="">
         </section>
 
-        <section class="contenedor">
+        <section id="catalogo" class="contenedor">
             <h2 class="fs-3 mt-4 mb-4 text-center"> ¡Estos productos podrían
                 estar en
                 tu closet!</h2>
@@ -131,7 +133,7 @@
             </div>
         </section>
 
-        <section class="row">
+        <section id="beneficios" class="row">
             <div
                 class="cajita col-12 col-sm-6 col-md-3 d-flex align-items-center justify-content-center">
                 <div>
@@ -171,11 +173,45 @@
                 </div>
             </div>
         </section>
-
     </main>
-    <footer>
-        <div>
-            footer redes sociales
+
+    <footer class="row bg-black text-light rrss" id="rrss">
+        <div
+            class="d-flex col-12 col-sm-3 d-flex align-items-center justify-content-center">
+            <div>
+                <i class="fa-brands fa-square-instagram me-3"></i>
+            </div>
+            <div>
+                <p> Instagram </p>
+            </div>
+        </div>
+
+        <div
+            class="d-flex col-12 col-sm-3 d-flex align-items-center justify-content-center">
+            <div>
+                <i class="fa-brands fa-tiktok me-3"></i>
+            </div>
+            <div>
+                <p> TikTok</p>
+            </div>
+        </div>
+        <div
+            class="d-flex col-12 col-sm-3 d-flex align-items-center justify-content-center">
+            <div>
+                <i class="fa-brands fa-facebook-f me-3"></i>
+            </div>
+            <div>
+                <p> Facebook</p>
+            </div>
+        </div>
+        <div
+            class="d-flex col-12 col-sm-3 d-flex align-items-center justify-content-center">
+            <div>
+                <i class="fa-brands fa-twitter me-3"></i>
+            </div>
+            <div>
+                <p> Twitter </p>
+            </div>
         </div>
 
     </footer>

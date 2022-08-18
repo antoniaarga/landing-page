@@ -38,7 +38,6 @@ body {
     font-size: medium;
 
 }
-
 .form-text-2 {
     font-size: x-small
 }
@@ -64,7 +63,6 @@ body {
         margin-top: 220px;
     }
 
-
     .submit-btn {
         font-size: small;
         margin-top: 10px;
@@ -74,6 +72,8 @@ body {
     .form-text-2 {
         font-size: small;
     }
+
+   
 }
 
 .contenedor img {
@@ -98,6 +98,16 @@ body {
 }
 
 .cajita p {
-    font-size:x-small;
+    font-size:medium
+
     
+}
+.rrss{
+
+    height: 80px;
+}
+
+.rrss p {
+    font-size: x-small;
+    font-weight: lighter;
 }
