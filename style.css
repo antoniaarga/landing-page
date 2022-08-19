@@ -81,11 +81,117 @@ body {
     margin: 2px;
 }
 
+.container-foto {
+    position: relative;
+    text-align: center;
+    color: white;
+
+  }
+  
+.texto-campaña-1 {
+    border: 0.8px solid white;
+    border-radius: 5px;
+    margin: 10px;
+    font-size:x-small;
+    background-color: #81d36c;
+    position: absolute;
+    top: 8%;
+    left: 8%;
+}
+.texto-campaña-2 {
+    border: 0.8px solid white;
+    border-radius: 5px;
+    margin: 10px;
+    font-size:x-small;
+    background-color: #fb700f;
+    position: absolute;
+    bottom: 16px;
+    right: 8px;
+}
+.texto-campaña-3 {
+    border: 0.8px solid white;
+    border-radius: 5px;
+    margin: 10px;
+    font-size:x-small;
+    background-color: #da6ba8;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+.texto-campaña-4 {
+    border: 0.8px solid white;
+    border-radius: 5px;
+    margin: 10px;
+    font-size:x-small;
+    background-color: #b68ed6;
+    position: absolute;
+    top: 16px;
+    right: 8px;
+}
+.texto-campaña-5 {
+    border: 0.8px solid white;
+    border-radius: 5px;
+    margin: 10px;
+    font-size:x-small;
+    background-color: #fb700f;
+    position: absolute;
+    bottom: 16px;
+    right: 8px;
+}
+.texto-campaña-6 {
+    border: 0.8px solid white;
+    border-radius: 5px; 
+    margin: 10px;
+    font-size:x-small;
+    background-color: #81d36c;
+    position: absolute;
+    top: 8%;
+    left: 8%;
+}
+.texto-campaña-6 {
+    border: 0.8px solid white;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: x-small;
+    background-color: #81d36c;
+    position: absolute;
+    /* bottom: 8px;
+    right: 8px; */
+
+}
+.texto-campaña-7 {
+    border: 0.8px solid white;
+    border-radius: 5px;
+    margin: 10px;
+    font-size:x-small;
+    background-color:  #b68ed6;
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+}
+.texto-campaña-8 {
+    border: 0.8px solid white;
+    border-radius: 5px;
+    margin: 10px;
+    font-size:x-small;
+    background-color: #da6ba8;
+    position: absolute;
+    top: 8%;
+    left: 8%;
+}
+
+.campaña-titulo{
+    font-size: small;
+    
+}
+.cajita
+
 @media screen and (min-width:992px) {
 
     .contenedor img {
         width: 100%;
-        margin: 0px;
+        
     }
 
 }
