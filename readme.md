@@ -1,0 +1,2 @@
+Este ejercicio de landing page es el proyecto 1 del bootcamp de desarrollo web fullstack UDD. Su objetivo principal es desplegar las diversas ofertas de un evento de descuentos llamado "Fashion Sale" para un supuesto e-commerce de moda. Como adición estará la opción de que el cliente pueda subcribirse para recibir newsletters con más ofertas en el futuro aparte dar a conocer los beneficios que obtendrá el cliente al comprar.
+

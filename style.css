@@ -1,5 +1,5 @@
 body {
-    background-color: aliceblue;
+    background-color: rgb(0, 0, 0);
     font-family: 'Lato', sans-serif;
 }
 
@@ -30,15 +30,15 @@ body {
     /* width: 50%; */
     background-color: #8d60b7;
     padding: 10px;
-
-    border-radius: 5px;
+    border: 0.8px solid white;
+    border-radius: 10px;
 }
 
 .form-text-1 {
     font-size: medium;
 
 }
-.form-text-2 {
+.contenedor {
     font-size: x-small
 }
 
@@ -46,7 +46,15 @@ body {
     font-size: x-small;
     margin-top: 10px;
 }
-
+.titulo-catalogo {
+   
+    font-family: 'Paytone One', sans-serif;
+    font-size: 20px;
+    color: aliceblue;
+    text-transform: uppercase;
+    
+    
+}
 
 @media screen and (min-width:785px) {
     .jimbotron {
@@ -91,12 +99,12 @@ body {
 .texto-campaña-1 {
     border: 0.8px solid white;
     border-radius: 5px;
-    margin: 10px;
+    
     font-size:x-small;
     background-color: #81d36c;
     position: absolute;
-    top: 8%;
-    left: 8%;
+    top: 16px;
+    left: 16px;
 }
 .texto-campaña-2 {
     border: 0.8px solid white;
@@ -106,7 +114,7 @@ body {
     background-color: #fb700f;
     position: absolute;
     bottom: 16px;
-    right: 8px;
+    right: 16px;
 }
 .texto-campaña-3 {
     border: 0.8px solid white;
@@ -115,7 +123,7 @@ body {
     font-size:x-small;
     background-color: #da6ba8;
     position: absolute;
-    top: 8px;
+    top: 16px;
     left: 16px;
 }
 
@@ -127,7 +135,7 @@ body {
     background-color: #b68ed6;
     position: absolute;
     top: 16px;
-    right: 8px;
+    right: 16px;
 }
 .texto-campaña-5 {
     border: 0.8px solid white;
@@ -137,33 +145,24 @@ body {
     background-color: #fb700f;
     position: absolute;
     bottom: 16px;
-    right: 8px;
+    right: 16px;
 }
-.texto-campaña-6 {
-    border: 0.8px solid white;
-    border-radius: 5px; 
-    margin: 10px;
-    font-size:x-small;
-    background-color: #81d36c;
-    position: absolute;
-    top: 8%;
-    left: 8%;
-}
+
 .texto-campaña-6 {
     border: 0.8px solid white;
     border-radius: 5px;
-    margin: 10px;
-    font-size: x-small;
-    background-color: #81d36c;
+    margin-right: 10px;
+    font-size:x-small;
+    background-color:  #81d36c;
     position: absolute;
-    /* bottom: 8px;
-    right: 8px; */
+    bottom: 16px;
+    right: 16px;
 
 }
 .texto-campaña-7 {
     border: 0.8px solid white;
     border-radius: 5px;
-    margin: 10px;
+    margin-right: 10px;
     font-size:x-small;
     background-color:  #b68ed6;
     position: absolute;
@@ -177,16 +176,26 @@ body {
     font-size:x-small;
     background-color: #da6ba8;
     position: absolute;
-    top: 8%;
-    left: 8%;
+    top: 16px;
+    left: 16px;
 }
-
+.texto-campaña-9{
+    border: 0.8px solid white;
+    border-radius: 5px;
+    margin: 10px;
+    font-size:x-small;
+    background-color: #fb700f;
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    
+}
 .campaña-titulo{
     font-size: small;
     
 }
 .cajita
-
+/* 
 @media screen and (min-width:992px) {
 
     .contenedor img {
@@ -194,7 +203,7 @@ body {
         
     }
 
-}
+} */
 
 .cajita {
     background-color:#f5ecfc;
@@ -204,7 +213,10 @@ body {
 }
 
 .cajita p {
-    font-size:medium
+    margin: 10px;
+    font-size:medium;
+    color: ghostwhite;
+    
 
     
 }
