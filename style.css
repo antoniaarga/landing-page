@@ -3,27 +3,24 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+/* Header */
 .mini-logo {
     width: 240px;
 }
 
-
 .jimbotron {
     background-image: url(./assets/imgs/main_verde.png);
-    height: 800px;
+    height: 700px;
     background-position: 10% center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 0 5em;
 }
 
-
-
 .logo {
     width: 250px;
-    margin-top: 300px;
+    margin-top: 200px;
     margin-bottom: 20px;
-
 }
 
 .form {
@@ -46,16 +43,19 @@ body {
     font-size: x-small;
     margin-top: 10px;
 }
+
+/* catalogo */
+
+
 .titulo-catalogo {
    
     font-family: 'Paytone One', sans-serif;
     font-size: 20px;
     color: #212529;
-    text-transform: uppercase;
-    
-    
+    text-transform: uppercase; 
 }
 
+/* media query header  */
 @media screen and (min-width:785px) {
     .jimbotron {
         
@@ -84,7 +84,7 @@ body {
    
 }
 
-.contenedor img {
+.catalogo img {
     width: 100%;
     margin: 2px;
 }
@@ -194,37 +194,50 @@ body {
     
 }
 
-
-@media screen and (min-width:992px) {
-
-    .contenedor img {
-        width: 100%;
-        
-    }
-
+/* Sobre nosotros */
+.imagen-columna {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
 }
 
+.titulo-columna{
+    font-family: 'Paytone One', sans-serif;
+    font-size: 20px;
+    color: #212529;
+    text-transform: uppercase;
+}
 
+.parrafo-columna {
+    font-size: 11px;
+    width: 90%;
+}
+.separador-1{
+width: 100%;
+}
+
+.fondo-nosotros{
+background-color: #fdf9f9;
+height: 100%;
+width: 100%;
+}
+
+/* beneficios */
 
 .cajita {
-    
-    height: 100px;
-    
-   
+    height: 100px;  
 }
-
 .cajita p {
-    
-    font-size:small;
+    font-size: x-small;
     color: #212529;  
+    text-decoration: underline;
 }
 
+/* footer */
 .rrss{
 background-color: #212529;
     height: 120px;
-   
 }
-
 .rrss p {
     font-size: x-small;
     font-weight: lighter;

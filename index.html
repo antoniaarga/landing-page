@@ -27,7 +27,7 @@
 
 <body>
     <header class="container-fluid p-0">
-        <div class="header w-100">
+        <div class="header ">
 
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div class="container-fluid">
@@ -52,6 +52,10 @@
                                     href="#catalogo">Catálogo</a>
                             </li>
                             <li class="nav-item">
+                                <a class="nav-link" href="#sobrenosotros">Sobre
+                                    Nosotros</a>
+                            </li>
+                            <li class="nav-item">
                                 <a class="nav-link"
                                     href="#beneficios">Beneficios</a>
                             </li>
@@ -59,14 +63,15 @@
                                 <a class="nav-link" href="#rrss">Redes
                                     Sociales</a>
                             </li>
+
                         </ul>
                     </div>
                 </div>
             </nav>
         </div>
     </header>
-    <main class="container">
 
+   
         <section id="subscribete"
             class="jimbotron d-flex align-items-end flex-column">
             <div class="d-flex flex-column align-items-end">
@@ -93,13 +98,14 @@
                 </form>
             </div>
         </section>
-
+ <main>
         <section>
             <img class="container-fluid p-0" src="./assets/imgs/separador-1.png"
                 alt="">
         </section>
 
-        <section id="catalogo" class="contenedor d-flex justify-content-center">
+        <section id="catalogo"
+            class="container catalogo d-flex justify-content-center">
             <div class=" d-flex flex-column">
                 <p class="mt-4 mb-4 text-center titulo-catalogo"> ¡Estos
                     productos <br> podrían
@@ -179,19 +185,43 @@
             </div>
         </section>
 
+        <section class="container   fondo-nosotros"
+            id="sobrenosotros">
+            <div class="row align-items-center ">
+                <div class="col-6">
+                    <img src="./assets/imgs/sobrenosotros.jpg" alt=""
+                        class="imagen-columna">
+                </div>
+                <div class="col-6 text-center">
+                    <p class="titulo-columna"> Sobre Nosotros</p>
+                    <p class="parrafo-columna">En Fashion Sale encuentra lo
+                        mejor de la moda ¡Vestuario, Calzado, Accesorios,
+                        Deportes, y Belleza!
+                        Te ofrecemos envío gratis a TODO Chile, en compras
+                        iguales o superiores a $30.000. Y, en caso que necesites
+                        cambiar tu producto, vas a poder hacerlo sin ningún
+                        costo adicional.
+                        Encuentra también cientos de productos de moda vendidos
+                        y despachados directamente por tiendas asociadas, ¡todo
+                        desde una misma página!</p>
+                </div>
+                <div>
+                    <img src="./assets/imgs/separador-1.png" alt=""
+                        class="separador-1">
+                </div>
+            </div>
+        </section>
 
 
-
-
-        <section id="beneficios" class="d-flex justify-content-center">
-            <div class="row">
+        <section id="beneficios" class="container">
+            <div class="d-flex justify-content-center row">
                 <div
                     class="cajita col-12 col-sm-6 col-md-3 col-lg-3 d-flex align-items-center justify-content-center">
                     <div>
                         <i class="fa-solid fa-truck fs-4 "></i>
                     </div>
                     <div>
-                        <p class="ps-3">Despacho gratis sobre $30.000
+                        <p class="ps-2">Despacho gratis sobre $30.000
                         </p>
                     </div>
                 </div>
@@ -201,7 +231,7 @@
                         <i class="fa-solid fa-rotate fs-4 "></i>
                     </div>
                     <div>
-                        <p class="ps-3"> Cambios ilimitados sin costo</p>
+                        <p class="ps-2"> Cambios ilimitados sin costo</p>
                     </div>
                 </div>
                 <div
@@ -210,30 +240,28 @@
                         <i class="fa-solid fa-tag fs-4 "></i>
                     </div>
                     <div>
-                        <p class="ps-3"> Más de 500 marcas</p>
+                        <p class="ps-2"> Más de 500 marcas</p>
                     </div>
                 </div>
                 <div
                     class="cajita col-12 col-sm-6 col-md-3 col-lg-3 d-flex align-items-center justify-content-center">
                     <div>
-                        <i
-                            class="fa-regular fa-credit-card fs-4 "></i>
+                        <i class="fa-regular fa-credit-card fs-4 "></i>
                     </div>
                     <div>
-                        <p class="ps-3"> Compra en 6 cuotas sin interés</p>
+                        <p class="ps-2"> Compra en 6 cuotas sin interés</p>
                     </div>
                 </div>
             </div>
-
         </section>
     </main>
 
     <footer class="row rrss" id="rrss">
-
         <div class="col-12">
             <div class="d-flex flex-column align-items-center">
                 <div class="text-light mt-4">
-                    <p class="titulo-footer">Síguenos en nuestras redes sociales</p>
+                    <p class="titulo-footer">Síguenos en nuestras redes sociales
+                    </p>
                 </div>
                 <div class="d-flex text-light mb-5">
                     <div>
@@ -251,12 +279,10 @@
                 </div>
             </div>
         </div>
-
-
-        </div>
-
-
         
+
+
+
         </div>
     </footer>
 
